@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* 
+font-weight: 400; regular
+600 semi-bold
+700 bold
+800 bolder
+900 sheesh
+*/
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+/* Selecting class "class=" */
+.card {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.user_avatar {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+/*
+Typography
+h1 = 36px
+h2 = 32px
+h3 = 28px
+h4 = 24px
+h5 = 16px
+p = 16px
+*/
+
+.user_name {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+
+.user_location {
+    color: hsl(75, 94%, 57%);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card_header_content {
+    text-align: center;
+}
+
+.short_bio {
+    text-align: center;
+}
+
+.card_social_buttons button {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.btn_signin {
+    background-color: green;
+    color: black;
+}
